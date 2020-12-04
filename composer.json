@@ -1,0 +1,32 @@
+{
+    "name": "ichynul/labuilder",
+    "description": "labuilder",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "https://github.com/ichynul/labuilder",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ichynul",
+            "email": "ichynul@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ichynul\\Labuilder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ichynul\\Labuilder\\LabuilderServiceProvider"
+            ]
+        }
+    }
+}

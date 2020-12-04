@@ -1,0 +1,1 @@
+<span class="the-field {{$class}}" {!! $attr !!}>{!! $value !!}</span>
